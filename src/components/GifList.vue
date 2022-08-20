@@ -1,19 +1,23 @@
 <template>
+<div class="gif-list">
   <gif v-for="gif in gifs" :key="gif.id" :gif="gif" />
+</div>
 </template>
 
-<script>
+<script setup>
 import Gif from './Gif.vue'
 
-export default {
-  components: { Gif },
-  props: {
-    gifs: Array
-  }
+defineProps({
+  gifs: Array
+});
 
-}
 </script>
 
 <style>
-
+.gif-list {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 </style>
