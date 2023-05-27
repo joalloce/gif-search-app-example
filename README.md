@@ -7,5 +7,6 @@ It uses the following technologies:
 ## Setup
 
 ```sh
+npm install
 npm run dev
 ```
