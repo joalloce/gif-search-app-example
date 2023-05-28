@@ -1,7 +1,7 @@
 <template>
   <div class="navbar">
-    <p>Gif Search Demo</p> 
-    <Search @fetch-gifs="$emit('gifs-data',$event)"/>
+    <p>Gif Search Demo <a href="https://github.com/joalloce/gif-search-app-example">Code</a></p>
+    <Search @fetch-gifs="$emit('gifs-data', $event)" />
   </div>
 </template>
 
@@ -15,6 +15,7 @@ import Search from './Search.vue'
   display: flex;
   flex-direction: column;
 }
+
 p {
   font-size: 25px;
 }

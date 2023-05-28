@@ -1,5 +1,7 @@
 # gif-search-app-example
 
+https://joalloce.github.io/gif-search-app-example/
+
 It uses the following technologies:
 
 - Vue
